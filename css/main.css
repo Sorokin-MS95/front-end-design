@@ -1,0 +1,87 @@
+h1, h3 {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px; }
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+body {
+  font-family: RobotoRegular;
+  background: url("../img/background.png") no-repeat center center fixed;
+  background-size: cover; }
+
+section.main-section {
+  background-color: rgba(1, 1, 1, 0.3);
+  margin-top: 30%; }
+  section.main-section header {
+    display: block;
+    width: 100%;
+    text-align: center; }
+    section.main-section header h1 {
+      padding-top: 20px;
+      font-size: 40px;
+      color: #ffffff; }
+    section.main-section header h3 {
+      font-size: 20px;
+      color: #ffffff; }
+section.choose-section {
+  padding-bottom: 20px; }
+  section.choose-section div.button {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle; }
+    section.choose-section div.button a {
+      line-height: 40px;
+      text-decoration: none;
+      display: block;
+      height: inherit; }
+  section.choose-section div.login-button {
+    background-color: black;
+    z-index: 1;
+    opacity: 0.85;
+    margin-bottom: 10px; }
+    section.choose-section div.login-button a {
+      color: #ffffff; }
+  section.choose-section div.register-button {
+    background-color: #ff2b4a;
+    color: #ffffff;
+    margin-bottom: 20px; }
+    section.choose-section div.register-button a {
+      color: #ffffff; }
+section.login-section {
+  background-color: rgba(1, 1, 1, 0.3);
+  margin-top: 40%; }
+  section.login-section div {
+    border-bottom: 1px solid #eee;
+    margin-left: 20px; }
+    section.login-section div.form-input {
+      display: block;
+      height: 40px;
+      position: relative; }
+      section.login-section div.form-input span.user-icon {
+        background: url("../img/user-icon.png") no-repeat center;
+        border-right: 1px solid #eee;
+        line-height: 30px;
+        display: inline-block;
+        position: absolute;
+        top: 2px;
+        height: 32px;
+        width: 32px; }
+      section.login-section div.form-input input {
+        color: #ffffff;
+        padding-left: 35px;
+        outline: none;
+        border: none;
+        position: absolute;
+        top: 0;
+        display: inline-block;
+        height: 38px;
+        background: none;
+        width: 250px; }
+
+/*# sourceMappingURL=main.css.map */
